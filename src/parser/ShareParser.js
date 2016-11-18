@@ -82,7 +82,7 @@ export default class ShareParser {
                 const { start, uk } = this.parse(page.url);
                 const count = data.feedata.total_count;
                 if ((start + 20) < count) {
-                  const url = `http://yun.baidu.com/pcloud/friend/getfollowlist?query_uk=${uk}&limit=20&start=${start + 20}&bdstoken=d82467db8b1f5741daf1d965d1509181&channel=chunlei&clienttype=0&web=1`;
+                  const url = `https://pan.baidu.com/wap/share/home?uk=${uk}&start=${start + 20}`;
                   const task = { type: page.type, uid: md5(url), url, down: 0, done: 0 };
                   this.addTask(task)
                     .then(() => {

@@ -122,7 +122,7 @@ var ShareParser = function () {
 
                     var count = data.feedata.total_count;
                     if (start + 20 < count) {
-                      var url = 'http://yun.baidu.com/pcloud/friend/getfollowlist?query_uk=' + uk + '&limit=20&start=' + (start + 20) + '&bdstoken=d82467db8b1f5741daf1d965d1509181&channel=chunlei&clienttype=0&web=1';
+                      var url = 'https://pan.baidu.com/wap/share/home?uk=' + uk + '&start=' + (start + 20);
                       var task = { type: page.type, uid: (0, _md2.default)(url), url: url, down: 0, done: 0 };
                       _this2.addTask(task).then(function () {
                         var res = _this2.save(page, 6);

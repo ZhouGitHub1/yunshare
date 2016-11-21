@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "description": "baidu yun spider",
   "main": "./dist/yun.js",
-  "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/callmelanmao/yun.git"
+    "url": "git+https://github.com/callmelanmao/yunshare.git"
   },
   "dependencies": {
     "async": "^2.0.0",

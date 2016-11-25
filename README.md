@@ -34,7 +34,7 @@ create database yun default charset utf8
 
 ```
 gulp babel
-node dist/init.js
+node dist/script/init.js
 ```
 
 注意必须先运行`gulp babel`把es6代码编译成es5，然后运行初始化脚本导入初始数据，数据文件在`data/hot.json`，里面，是从页面 http://yun.baidu.com/pcloud/friend/gethotuserlist?type=1&from=feed&start=0&limit=24&bdstoken=ac95ef31d3979f6ee707ef75cee9f5c5&clienttype=0&web=1 保存下来的。
@@ -53,4 +53,4 @@ elasticsearch索引程序也已经写好了，mapping文件在`data/mapping.json
 
 ## DEMO
 
-[网盘搜索](https://biliworld.com)
+[哔哩搜索](https://biliworld.com)

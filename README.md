@@ -53,7 +53,7 @@ elasticsearch索引程序也已经写好了，mapping文件在`data/mapping.json
 
 ## 相关文档
 
-* [https://lanmaowz.com/simple-node-model/](简单高效的nodejs爬虫模型)
+* [简单高效的nodejs爬虫模型](https://lanmaowz.com/simple-node-model/)
 
 ## DEMO
 

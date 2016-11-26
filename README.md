@@ -51,6 +51,10 @@ elasticsearch索引程序也已经写好了，mapping文件在`data/mapping.json
 
 在完成elasticsearch配置之后，你也可以在process.json里面添加一项elastic任务，这样就不需要单独启动索引程序了。
 
+## 相关文档
+
+* [https://lanmaowz.com/simple-node-model/](简单高效的nodejs爬虫模型)
+
 ## DEMO
 
 [哔哩搜索](https://biliworld.com)

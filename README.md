@@ -57,4 +57,4 @@ elasticsearch索引程序也已经写好了，mapping文件在`data/mapping.json
 
 ## DEMO
 
-[哔哩搜索](http://www.biliworld.com)
+[网盘搜索](http://www.biliworld.com)
